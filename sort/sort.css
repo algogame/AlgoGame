@@ -17,6 +17,10 @@ button {
   text-align: center;
 }
 
+.text {
+  font-size: 20;
+}
+
 ul {
   list-style-type: none;
 
