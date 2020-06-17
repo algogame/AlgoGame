@@ -1,6 +1,6 @@
 var arr = []; //create empty array
-var n = 25;
-for (var i = 0; i < 121; i++) {
+var n = 45;
+for (var i = 0; i < 70; i++) {
   //initialize the array
   arr.push(n);
   n += 1;
@@ -9,9 +9,9 @@ for (var i = 0; i < 121; i++) {
 function draw(n, color) {
   if (canvas.getContext) {
     var ctx = canvas.getContext("2d");
-    var width = 8;
+    var width = 13;
 
-    var currX = 10;
+    var currX = 20;
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     for (var i = 0; i < n.length; i++) {
       if (i == color) {
